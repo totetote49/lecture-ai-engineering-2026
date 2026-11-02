@@ -11,7 +11,8 @@
   - 2回
   - [usage] RunUsage(cost=Decimal('0.0007907'), details={'text_prompt_tokens': 1194}, input_text_tokens=1194, input_tokens=1194, output_tokens=173, requests=2, tool_calls=2)   
 - 追加したツールと、docstring に書いた説明：
-  - make_quiz を追加。docstring には説明を書かなくとも動作した
+  - make_quiz を追加
+  - docstring には「指定した回の用語から1つ選び、確認問題と答えを返す。「第2回の確認問題を出して」のように、復習用の問題を求められた時に使う。　と記載
 
 ## 宿題
 
